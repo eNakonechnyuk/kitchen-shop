@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/eNakonechnyuk/kitchen-shop/issues"
   },
-  "homepage": "https://github.com/eNakonechnyuk/kitchen-shop#readme"
+  "homepage": "https://github.com/eNakonechnyuk/kitchen-shop#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "typescript": "^7.0.2"
+  }
 }
