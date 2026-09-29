@@ -1,3 +1,12 @@
-const message: string = "Kitchen Shop API";
+import express from "express";
 
-console.log(message);
+const app = express();
+const port = 3001;
+
+app.get("/api/health", (req, res) => {
+  res.json({ status: "ok" });
+});
+
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});
