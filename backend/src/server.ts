@@ -1,11 +1,6 @@
-import express from "express";
+import app from "./app.js";
 
-const app = express();
 const port = 3001;
-
-app.get("/api/health", (req, res) => {
-  res.json({ status: "ok" });
-});
 
 app.listen(port, () => {
   console.log(`Kitchen Shop API is running on port ${port}`);

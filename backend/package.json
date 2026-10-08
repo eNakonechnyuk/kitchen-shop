@@ -1,6 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
+  "type": "module",
   "description": "REST API for the Kitchen Shop application",
   "main": "src/server.ts",
   "scripts": {
