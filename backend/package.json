@@ -5,7 +5,9 @@
   "description": "REST API for the Kitchen Shop application",
   "main": "src/server.ts",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
   "repository": {
     "type": "git",
